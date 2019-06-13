@@ -1,0 +1,159 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:fitsSystemWindows="true">-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:paddingTop="56dp"-->
+        <!--android:paddingLeft="24dp"-->
+        <!--android:paddingRight="24dp"-->
+
+        <!--android:padding="10dp"-->
+        <!--android:background="#FFF">-->
+
+        <!--&lt;!&ndash;<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+            <!--&lt;!&ndash;xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="#FFF"&ndash;&gt;-->
+
+            <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;<com.github.glomadrian.codeinputlib.CodeInput&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:hint_text="Pairing code"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/pairing"&ndash;&gt;-->
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+            <!--<com.github.glomadrian.codeinputlib.CodeInput-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--app:underline_color="#457ad1"-->
+                <!--app:underline_selected_color="#9e1ace"-->
+                <!--app:text_color="#b12eff"-->
+                <!--app:hint_color="#77ce9d"-->
+                <!--app:hint_text="Pin code"-->
+                <!--app:codes="4"-->
+                <!--/>-->
+
+            <!--&lt;!&ndash;<com.github.glomadrian.codeinputlib.CodeInput&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:underline_color="#d19385"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:underline_selected_color="#ce3a47"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:text_color="#5c282c"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:hint_color="#ce1087"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:hint_text="Cheat code"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:codes="8"&ndash;&gt;-->
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<com.github.glomadrian.codeinputlib.CodeInput&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:underline_color="#03A9F4"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:underline_selected_color="#3F51B5"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:text_color="#212121"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:hint_color="#03A9F4"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:hint_text="Hash code"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:codes="10"&ndash;&gt;-->
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+        <!--<ImageView android:src="@drawable/binusulogo"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="72dp"-->
+            <!--android:layout_marginBottom="24dp"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--&lt;!&ndash;  Password Label &ndash;&gt;-->
+        <!--&lt;!&ndash;<android.support.design.widget.TextInputLayout&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="8dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginBottom="8dp">&ndash;&gt;-->
+            <!--&lt;!&ndash;<EditText android:id="@+id/input_password"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:inputType=""&ndash;&gt;-->
+                <!--&lt;!&ndash;android:hint="PIN"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</android.support.design.widget.TextInputLayout>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<android.support.v7.widget.AppCompatButton&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/btn_login"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/white"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@color/colorPrimary"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginTop="24dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginBottom="24dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:padding="12dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="Login"/>&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+<!--</ScrollView>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mine_shaft"
+    tools:context=".Activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/ytibpaylogo" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Set PIN"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <com.andrognito.pinlockview.IndicatorDots
+        android:id="@+id/indicator_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <com.andrognito.pinlockview.PinLockView
+        android:id="@+id/pin_lock_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indicator_dots"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:keypadButtonSize="72dp"
+        app:keypadShowDeleteButton="true"
+        app:keypadTextColor="@color/white"
+        app:keypadTextSize="18dp" />
+
+</RelativeLayout>

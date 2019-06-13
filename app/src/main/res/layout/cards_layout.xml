@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:tag="cards main container">-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/card_view"-->
+        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--card_view:cardBackgroundColor="@color/white"-->
+        <!--card_view:cardCornerRadius="10dp"-->
+        <!--card_view:cardElevation="5dp"-->
+        <!--card_view:cardUseCompatPadding="true">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+            <!---->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:orientation="vertical"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewName"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Android Name"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceLarge"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewVersion"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_marginTop="10dp"-->
+
+                    <!--android:text="Android Version"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"/>-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+
+<!--</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/row"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="?selectableItemBackground"
+android:clickable="true"
+android:focusable="true"
+android:orientation="horizontal">
+
+<android.support.v7.widget.CardView
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/image"
+        android:orientation="vertical">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+
+            <!-- Row 1 with single column -->
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="left">
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_height="match_parent"
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:text="UGX"
+                        android:textColor="@color/jet"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left">
+                    <TextView
+                        android:id="@+id/textViewVersion"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:gravity="right"
+                        android:textSize="15sp"
+                        android:textColor="@color/fg_value_negative"
+                        android:text="BTC"/>
+                </LinearLayout>
+            </TableRow>
+            <!--<TableRow-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" >-->
+                <!--<TextView-->
+                    <!--android:id="@+id/hash"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:layout_span="2"-->
+                    <!--android:text="1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"-->
+                    <!--android:textColor="@color/dark_gray" />-->
+            <!--</TableRow>-->
+        </TableLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

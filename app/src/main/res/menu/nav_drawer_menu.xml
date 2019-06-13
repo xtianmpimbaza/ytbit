@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_id"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_send_id"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="Send" />
+        <item
+            android:id="@+id/nav_receive_id"
+            android:icon="@drawable/ic_call_received_black_24dp"
+            android:title="Receive" />
+        <!--<item-->
+            <!--android:id="@+id/nav_buy_id"-->
+            <!--android:icon="@drawable/ic_account_balance_wallet_black_24dp"-->
+            <!--android:title="Fund Wallet" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_withdraw_id"-->
+            <!--android:icon="@drawable/ic_attach_money_black_24dp"-->
+            <!--android:title="Withdraw" />-->
+
+    </group>
+
+    <item android:title="Intouch">
+        <menu>
+            <item
+            android:id="@+id/nav_backup"
+            android:icon="@drawable/ic_backup_24dp"
+            android:title="Back Up" />
+            <!--<item-->
+                <!--android:id="@+id/nav_share_id"-->
+                <!--android:icon="@drawable/ic_share_black_24dp"-->
+                <!--android:title="Share" />-->
+        </menu>
+    </item>
+
+</menu>
